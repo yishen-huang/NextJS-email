@@ -16,6 +16,7 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
+        <p className="text-white">你好</p>
       </div>
       <Footer />
     </main>
