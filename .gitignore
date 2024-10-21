@@ -48,5 +48,5 @@ yarn-debug.log*
 yarn-error.log*
 ## 黄河大合唱
 
+# 清华测
 .pnpm-debug.log*
-*.tsbuildinfo
