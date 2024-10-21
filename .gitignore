@@ -46,5 +46,7 @@ cython_debug/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+## 黄河大合唱
+
 .pnpm-debug.log*
 *.tsbuildinfo
