@@ -5,6 +5,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
+import LoginPage from "./components/LoginPage";  // Importing the LoginPage
 
 export default function Home() {
   return (
@@ -16,9 +17,14 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
-        <p className="text-white">你好</p>
+        <p className="text-white">你好啊</p>
       </div>
       <Footer />
     </main>
   );
 }
+
+// Add routing for the LoginPage
+export const routes = [
+  { path: '/login', component: LoginPage },
+];
