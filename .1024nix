@@ -8,7 +8,7 @@ pkgs.mkShell {
         export PATH=$HOME/app/node_modules/.bin:$npm_config_prefix/bin:$PATH
     '';
     packages = [
-        # env
+        # envqw
         pkgs.nodejs_20
         pkgs.nodePackages.yarn
         pkgs.nodePackages.typescript
