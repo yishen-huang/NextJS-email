@@ -1,3 +1,6 @@
 # only
 node_modules/
 .next/
+.1024*
+!.1024
+.env
